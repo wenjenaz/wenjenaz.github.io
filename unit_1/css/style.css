@@ -1,0 +1,16 @@
+body {
+	background-color: #000000;
+	font-family: Arial;
+}
+
+p {
+	color: orange;
+}
+
+h1 {
+	color: white;
+}
+
+.cool_text {
+	color: blue;
+}
