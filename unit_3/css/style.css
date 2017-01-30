@@ -63,10 +63,9 @@ header {
 .hero {
 	width: 100%;
 	height: 100%;
-	background-image: url(C:/Users/Wendy/Desktop/wenjenaz.github.io/unit_3/images/hero_bw.png);
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-image: url(images/hero_bw.png);
+	background-image: url(https://wenjenaz.github.io/unit_3/images/hero_bw.png);
 }
 
 .offerings {
