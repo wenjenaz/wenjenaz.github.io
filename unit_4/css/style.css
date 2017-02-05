@@ -1,0 +1,90 @@
+body {
+	background-color: #000000;
+	background-size: cover;
+	font-family: Rockwell, serif;
+	font-size: 14px;
+	line-height: 20px;
+	padding: 0;
+	margin: 0;
+}
+
+ul {
+	list-style: none;
+	margin: 20px;
+}
+
+p {
+	color: #fff;
+}
+
+h1, h2, h3, h4, ul, nav {
+	color: #fff;
+}
+
+h4 {
+	font-family: Rockwell, serif;
+	color: #2089FF;
+}
+
+h1 {
+	font-size: 32px;
+}
+
+nav {
+	text-align: center;
+}
+
+header {
+	width: 100%;
+	height: 10%;
+	border-bottom: 1px solid #1058E8;
+	background-color: #000;
+	left: 0;
+}
+
+.slogan {
+	position: absolute;
+	left: 10%;
+	top: 40%;
+	width: 30%;
+	text-align: center;
+}
+
+.vision {
+	position: absolute;
+	right: 0%;
+	top: 11%;
+	width: 25%;
+	background: rgba(0,0,0,.7);
+	padding: 20px;
+	font-family: Courier;
+}
+
+.hero {
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(https://wenjenaz.github.io/unit_3/images/hero_bw.png);
+}
+
+.offerings {
+	width: 100%;
+	height: 100%;
+	background-color: #0A066F;
+	border-top: #1058E8 1px solid;
+	text-align: center;
+}
+
+.equip_text {
+	text-align: center;
+}
+
+img, .equip_text {
+	width: 120px;
+	height:200px;
+	float: left;
+	margin-left: 10%;
+}
+
+
