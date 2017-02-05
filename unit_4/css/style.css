@@ -44,6 +44,16 @@ p {
 	line-height: 1.5em;
 }
 
+p a {
+	color: #fff;
+	text-decoration: none; 
+}
+
+p a:hover {
+	color:#17f2a7;
+	text-decoration: none;
+}
+
 h1, h2, h3, h4, ul, nav {
 	color: #fff;
 }
@@ -130,15 +140,10 @@ aside {
 	text-align: center;
 }
 
-.equip_text {
-	text-align: center;
-}
-
 img, .equip_text {
 	width: 120px;
 	height:200px;
 	float: left;
-	margin-left: 10%;
 }
 
 .logo {
@@ -159,4 +164,12 @@ img, .equip_text {
 	position: relative;
 }
 
+.equip {
+	width: 100%;
+	padding: 0 0 0 25%;
+}
+
+.equip li  {
+	padding: 1%;
+}
 
