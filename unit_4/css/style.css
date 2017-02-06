@@ -159,7 +159,7 @@ img, .equip_text {
 }
 
 .nav-container {
-	padding-top: 42px;
+	top: 42px;
 	float: left;
 	position: relative;
 }
