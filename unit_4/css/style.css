@@ -33,7 +33,7 @@ li a {
 li a:hover {
 	background-color: #000;
 	color: #2089FF;
-	border-top-left-radius: 5px;
+	border-top-left-radius: 10px;
 	border-bottom: 2px solid #17f2a7;
 }
 
@@ -159,6 +159,11 @@ img, .equip_text {
 }
 
 .nav-container {
+<<<<<<< HEAD
+=======
+	top: 45px;
+	float: left;
+>>>>>>> origin/master
 	position: relative;
 	top: 3.5vh;
 /*	float: left;
