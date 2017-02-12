@@ -81,29 +81,45 @@ h3 {
 }
 
 nav {
-	text-align: center;
+	/*text-align: center;
 	height: 100%;
 	width: 70%;
 	position: relative;
 	float: left;
-	display: block;
+	display: block;*/
+	background-color: #E8C66A;
+	border: 1px solid black;
 }
 
 header {
-	width: 100%;
-	height: 10%;
-	border-bottom: 1px solid #1058E8;
-	background-color: #333;
+	height: 20vh; /*change back to 10vh*/
+	/*border-bottom: 1px solid #1058E8;
+	background-color: #333;*/
 	left: 0;
-    background: -webkit-linear-gradient(#333, #111); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#333, #111); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#333, #111); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#333, #111); /* Standard syntax */
+    /*background: -webkit-linear-gradient(#333, #111);*/ /* For Safari 5.1 to 6.0 */
+    /*background: -o-linear-gradient(#333, #111);*/ /* For Opera 11.1 to 12.0 */
+    /*background: -moz-linear-gradient(#333, #111);*/ /* For Firefox 3.6 to 15 */
+    /*background: linear-gradient(#333, #111);*/ /* Standard syntax */
+    background-color: #FFED74;
+	border: 1px solid black;
 }
 
 aside {
-	border-bottom: 10px solid #0A066F;
-	border-top-left-radius: 15px;
+	/*border-bottom: 10px solid #0A066F;
+	border-top-left-radius: 15px;*/
+	background-color: #FFC675;
+	border: 1px solid black;
+}
+
+section, div {
+	background-color: #FFE2B8;
+	border: 1px solid black;
+}
+
+footer {
+	height: 20vh;
+	background-color: #FF957E;
+	border: 1px solid black;
 }
 
 .slogan {
@@ -119,9 +135,11 @@ aside {
 	right: 0%;
 	top: 15%;
 	width: 25%;
-	background: rgba(0,0,0,.7);
+	/*background: rgba(0,0,0,.7);*/
 	padding: 20px;
 	font-family: Courier;
+	background-color: #FFC675;
+	border: 1px solid black;
 }
 
 .hero {
@@ -129,24 +147,27 @@ aside {
 	height: 100%;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-image: url(https://wenjenaz.github.io/unit_3/images/hero_bw.png);
+/*	background-image: url(https://wenjenaz.github.io/unit_3/images/hero_bw.png);
+*/	background-color: #FFE2B8;
+	border: 1px solid black;
 }
 
 .offerings {
-	width: 100%;
-	height: 100%;
-	background-color: #0A066F;
-	border-top: #1058E8 1px solid;
+	height: 40vh;
+	/*background-color: #0A066F;
+	border-top: #1058E8 1px solid;*/
 	text-align: center;
+	background-color: #FFE2B8;
+	border: 1px solid black;
 }
 
-img, .equip_text {
+img {
 	width: 120px;
 	height:200px;
-	float: left;
+	display: inline;
 }
 
-.logo {
+/*.logo {
 	position: relative;
 	top: 0;
 	left: 0;
@@ -156,7 +177,7 @@ img, .equip_text {
 	display: inline;
 	background-color: #333;
 	border-right: #666 1px solid;
-}
+}*/
 
 .nav-container {
 	top: 45px;
@@ -165,6 +186,8 @@ img, .equip_text {
 	top: 3.5vh;
 /*	float: left;
 */	position: relative;
+	background-color: #E8C66A;
+	border: 1px solid black;
 }
 
 .equip {
@@ -174,5 +197,17 @@ img, .equip_text {
 
 .equip li  {
 	padding: 1%;
+}
+
+.equipment_text {
+	padding: 0 auto;
+	margin: -40px;
+}
+
+.column_1, .column_2, .column_3, .column_4, .column_5 {
+	width: 18vw;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
 }
 
