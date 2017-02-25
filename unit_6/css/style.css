@@ -107,9 +107,11 @@ section {
 }
 
 footer {
-	height: 20vh;
-	margin-left: 10%;
-	padding-top: 1%;
+	width: auto;
+	height: auto;
+	margin: 0 auto;
+	padding: 10px;
+	position: relative;
 }
 
 img {
@@ -121,7 +123,6 @@ img {
 .wrapper {
 	margin: 2px;
 }
-
 
 /*Header styles*/
 
@@ -167,10 +168,9 @@ img {
 
 .nav-container {
 	float: left;
-	position: relative;
-	top: 3.6vh;
+	position: absolute;
+	bottom: 0;
 	float: left;
-	position: relative;
 }
 
 .nav-float {
@@ -181,18 +181,23 @@ img {
 	display: block;
 	color: #fff;
 	text-align: center;
-	padding: 14px 16px;
 	text-decoration: none;
 	font-family: 'Teko', serif;
-	font-weight: 400;
+	font-weight: 300;
 	letter-spacing: .1em;
+	border-top-left-radius: 10px;
+	line-height: 1;
+	padding-top: 16px;
+	padding-right: 17px;
 }
 
 .nav-container li a:hover {
 	background-color: #000;
 	color: #2089FF;
-	border-top-left-radius: 10px;
-	border-bottom: 2px solid #17f2a7;
+	border-top: 2px solid #17f2a7;
+	border-right: 1px solid #444;
+	padding-top: 14px;
+	padding-right: 16px;
 }
 
 /*Equipment offering styles*/
@@ -241,17 +246,21 @@ img {
 
 .footer_col {
 	float: left;
-	width: 22vw;
+	width: 25%;
 	font-family: Teko, sans-serif;
 	font-weight: 300;
 	letter-spacing: .1em;
 	color: #fff;
 	line-height: 0;
+	height: 20%;
+	border-right: 1px solid #444;
+	margin-top: 20px;
+}
+
+.footer_col h4 {
+	text-align: center;
 }
 
 .footer_col ul li a: hover {
 	text-decoration: none;
 }
-
-
-
