@@ -266,7 +266,7 @@ img {
 	text-decoration: none;
 }
 
-@media only screen and (max-width: 321px) {
+@media only screen and (max-width: 321px) and (min-width: 475px) {
 	.hero {
 		background-repeat: no-repeat;
 		background-size: cover;
